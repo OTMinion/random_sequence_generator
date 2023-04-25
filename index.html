@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Random Number Sequence Generator</h1>
+    <form>
+      <label for="inputNum">Enter a sequence of numbers:</label><br />
+      <input type="text" id="inputNum" name="inputNum" /><br />
+      <label for="sequenceNum">Enter the sequence length:</label><br />
+      <input type="number" id="sequenceNum" name="sequenceNum" /><br /><br />
+      <button type="button" onclick="generateSequence()">Generate Sequence</button>
+    </form>
+    <p id="output"></p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
