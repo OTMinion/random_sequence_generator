@@ -43,4 +43,42 @@ button:hover {
 #output {
   font-size: 20px;
   text-align: center;
+  transition: filter 0.5s;
+}
+
+#output.blur {
+  filter: blur(10px);
+}
+
+#manualInput {
+  margin-top: 50px;
+}
+
+#submit {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#submit:hover {
+  opacity: 0.8;
+}
+
+#results {
+  font-size: 20px;
+  text-align: center;
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+#scoring {
+  margin-top: 50px;
+  text-align: center;
 }

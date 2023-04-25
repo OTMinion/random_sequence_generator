@@ -18,6 +18,18 @@
     </form>
     <p id="output"></p>
 
+    <form id="manualInput">
+      <label for="typedNum">Type the sequence above:</label><br />
+      <input type="text" id="typedNum" name="typedNum" onfocus="blurOutput()" /><br /><br />
+      <button type="button" onclick="checkSequence()">Submit</button>
+    </form>
+    <p id="results"></p>
+
+    <div id="scoring">
+      <p>Score: <span id="score"></span></p>
+      <p>Percentage: <span id="percentage"></span>%</p>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
